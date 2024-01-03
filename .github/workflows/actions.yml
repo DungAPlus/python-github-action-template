@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '*/3 * * * *' # At 00:00 on Monday
+    - cron: '*/3 * * * *' 
 
 jobs:
   build:
@@ -25,8 +25,7 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: jupyter nbconvert --to notebook --execute Testpy.ipynb
-        #run: python main.py
+        run: python main.py
           
       - name: commit files
         run: |
