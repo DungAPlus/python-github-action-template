@@ -25,7 +25,8 @@ jobs:
       - name: execute py script # run main.py
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python Testpy.ipynb
+        run: jupyter nbconvert --to notebook --execute Testpy.ipynb
+        #run: python main.py
           
       - name: commit files
         run: |
