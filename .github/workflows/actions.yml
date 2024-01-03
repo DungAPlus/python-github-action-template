@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Jupyter Notebook
         run: |
-          jupyter nbconvert --to notebook --execute Testpy.ipynb
+          jupyter nbconvert --to notebook --execute Clean_booking_request_daily.ipynb
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
