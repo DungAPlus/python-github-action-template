@@ -11,3 +11,5 @@
 2024-01-03 09:57:42,664 - __main__ - INFO - Weather in Berlin: 9.92
 2024-01-03 10:15:07,654 - __main__ - INFO - Token value: 1234
 2024-01-03 10:15:11,832 - __main__ - INFO - Tạo cấu trúc bảng thành công
+2024-01-03 16:21:05,648 - __main__ - INFO - Token value: 1234
+2024-01-03 16:21:09,607 - __main__ - INFO - Có lỗi xảy ra khi tạo bảng. Lỗi: b'{"error":{"code":"InvalidArgument","message":"A table can\'t overlap another table. ","innerError":{"code":"invalidArgument","message":"A table can\'t overlap another table. ","date":"2024-01-03T16:21:09","request-id":"5b9132b2-73a9-499d-8e1d-55fa215ffa1b","client-request-id":"5b9132b2-73a9-499d-8e1d-55fa215ffa1b"}}}'
