@@ -47,3 +47,5 @@
 2024-01-05 09:42:12,322 - __main__ - INFO - Có lỗi xảy ra khi tạo bảng. Lỗi: b'{"error":{"code":"InvalidArgument","message":"A table can\'t overlap another table. ","innerError":{"code":"invalidArgument","message":"A table can\'t overlap another table. ","date":"2024-01-05T09:42:12","request-id":"621dc637-4871-4d18-b9b4-47e671cacc68","client-request-id":"621dc637-4871-4d18-b9b4-47e671cacc68"}}}'
 2024-01-05 09:48:58,656 - __main__ - INFO - Token value: 1234
 2024-01-05 09:48:59,350 - __main__ - INFO - Weather in Berlin: 0.11
+2024-01-05 09:55:42,409 - __main__ - INFO - Token value: 1234
+2024-01-05 09:55:42,753 - __main__ - INFO - Weather in Berlin: 0.11
