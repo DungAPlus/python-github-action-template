@@ -37,3 +37,5 @@
 2024-01-03 17:58:58,615 - __main__ - INFO - Tạo cấu trúc bảng thành công
 2024-01-03 18:15:23,151 - __main__ - INFO - Token value: 1234
 2024-01-03 18:15:26,702 - __main__ - INFO - Có lỗi xảy ra khi tạo bảng. Lỗi: b'{"error":{"code":"InvalidArgument","message":"A table can\'t overlap another table. ","innerError":{"code":"invalidArgument","message":"A table can\'t overlap another table. ","date":"2024-01-03T18:15:26","request-id":"f3e5a7f2-76c3-4d11-8b10-dde92dead2bf","client-request-id":"f3e5a7f2-76c3-4d11-8b10-dde92dead2bf"}}}'
+2024-01-05 09:20:56,389 - __main__ - INFO - Token value: 1234
+2024-01-05 09:21:00,230 - __main__ - INFO - Tạo cấu trúc bảng thành công
