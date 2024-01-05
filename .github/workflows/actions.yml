@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 0 1 * *' 
+    - cron: '*/1 * * * *' 
 
 jobs:
   build:
@@ -22,10 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script # run main.py
-        env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python main.py
+      # - name: execute py script # run main.py
+      #   env:
+      #     SOME_SECRET: ${{ secrets.SOME_SECRET }}
+      #   run: python main.py
       - name: Install Jupyter
         run: |
           python -m pip install --upgrade pip
@@ -33,7 +33,7 @@ jobs:
 
       - name: Run Jupyter Notebook
         run: |
-          jupyter nbconvert --to notebook --execute Clean_booking_request_daily.ipynb
+          jupyter nbconvert --to notebook --execute Testpy.ipynb
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
